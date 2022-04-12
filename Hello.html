@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> Hello </title>
+
+        <style>
+            h1 {color:red; font-size: 100pt; background-color: yellow;}
+            h2 {color:blue;}
+            div {color: green; font-size:50pt; background-color:yellow;}
+        </style>
+
+        <script>
+            function f1()
+            {
+             document.getElementById('show-time').innerHTML="Welcome to my website"+new Date();
+            
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1> Hello World </h1>
+        <h2> This is another line </h2>
+        <h1> This is another H1 tag </h1>
+        <a href="https://en.wikipedia.org/wiki/Apple">About Apple</a>
+        <a href="https://en.wikipedia.org/wiki/Apple"><img src="apple.jpg" height=100 width=100/></a>
+        
+        <img src="grapes.jpg" height=100 width=100/>
+        <img src="guaua.jpg" height=100 width=100/>
+        <button onclick="f1()">Show Time</button>
+        <p>After you click the button, the current time will be shown just below</p>
+        <div id="show-time">
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Multimedia Page</title>
+</head>
+<body>
+    <h1> This page displays both audio and video </h1>
+    <a href="index.html" target="_parent">Home</a>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        if your browser is old, this feature will not be supported
+        So, quickly update to the latest version of the browser
+
+    </audio>
+    <br>
+    <video controls height="500px" width="800px">
+        <source src="sample-video.mp4" type="video/mp4"/>
+    </video>
+    <br>
+    <div style="border: 20px solid green; width: 420px; height:315px">
+        <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/2md4HQNRqJA"
+        >
+        </iframe>
+    </div>
+    <br>
+    <h1>You can show the google doc inside iframe</h1>
+    <div style="border: 20px solid green; width: 600px; height:315px">
+        <iframe width="420" height="315"
+            src="https://docs.google.com/document/d/16U6ipGh-2EwUHmMEU-8MbdPrhkRy_pKnEldgw2mHx-g/edit?usp=sharing"
+        >
+        </iframe>
+    </div>
+</body>
+</html>
